@@ -5,7 +5,7 @@ list1 = [5, 20, 15, 20, 25, 50, 20]
 j = int(input("Enter a item to remove it from the list : "))
 
 if j in list1:   # this condition will check for a correct list item. 
-    x = list1.count(j) # finding the times of occurences of a specified i
+    x = list1.count(j) # finding the times of occurences of a specified item.
 
     for k in range(x):
         list1.remove(j)
